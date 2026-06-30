@@ -1,10 +1,14 @@
-## Notification App Backend
-folder structure
 notification-app-be
-  ------data
-    ----notifications.json
-    ----users.json
-  ------routes
-    ----notifications.js
-    ----auth.js
-  ------server.js
+│
+├── data
+│   ├── users.json
+│   └── notifications.json
+│
+├── routes
+│   ├── auth.js
+│   └── notifications.js
+│
+├── package.json
+├── package-lock.json
+├── server.js
+└── README.md
